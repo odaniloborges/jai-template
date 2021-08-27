@@ -1,0 +1,76 @@
+.container {
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .menu-expanded {
+    opacity: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    transition: all 0.4s ease 0s;
+    overflow: hidden;
+  }
+  
+  .menu-expanded ul {
+    margin: 0;
+    list-style: none;
+    font-size: 22px;
+    text-align: start;
+    line-height: 2em;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .hamburguer-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 0;
+    position: initial;
+  }
+  
+  .line {
+    display: block;
+    width: 30px;
+    background: #fff;
+    height: 2px;
+    margin: 5px 5px;
+    transition: all 0.4s ease;
+    z-index: 1;
+  }
+  
+  input {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+  }
+  
+  .change .first-line {
+    transform: rotate(45deg) translate(0px, 0px);
+  }
+  
+  .change .second-line {
+    transform: rotate(-45deg) translate(8px, -8px);
+  }
+  
+  .change ~ .menu-expanded {
+    max-width: 400px;
+    opacity: 1;
+  }
+  
+  @media (max-width: 400px) {
+    .menu-expanded {
+      width: 100%;
+    }
+  }
+  
