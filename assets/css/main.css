@@ -829,14 +829,16 @@ input {
 #header a {
   color: inherit; }
 @media screen and (max-width: 736px) {
-  #header h1 {
-    font-size: 2em;
-    font-family: Playlist; }
-  #header p {
-    font-size: 1em; } }
+  #header {
+    margin: 1em 0 0 0; }
+    #header h1 {
+      font-size: 2em;
+      font-family: Playlist; }
+    #header p {
+      font-size: 1em; } }
 @media screen and (max-width: 480px) {
   #header {
-    margin: 11em 0 0 0; } }
+    margin: 1em 0 0 0; } }
 
 /* Signup Form */
 #signup-form {
