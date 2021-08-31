@@ -3038,12 +3038,13 @@ input, select, textarea {
 				#titleBar .title {
 					color: #fff;
 					display: block;
-					font-weight: 700;
+					font-weight: 400;
 					height: 44px;
 					line-height: 44px;
 					padding: 0 1em;
 					width: 100%;
 					text-align: left;
+					font-family: Playlist;
 				}
 
 					#titleBar .title a {
@@ -3148,6 +3149,8 @@ input, select, textarea {
 
 		/* Section/Article */
 
+
+
 			header br {
 				display: none;
 			}
@@ -3183,6 +3186,7 @@ input, select, textarea {
 				-ms-transform: translateX(17em);
 				transform: translateX(17em);
 				right: 0;
+				left: auto;
 			}
 
 				#header > header {
