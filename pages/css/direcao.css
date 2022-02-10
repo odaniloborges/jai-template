@@ -473,6 +473,11 @@ header .container {
   position: relative;
 }
 
+header h1 {
+  font-size: 3.5em;
+	font-family: Playlist;
+}
+
 .menu-principal {
   position: absolute;
   right: 0;
