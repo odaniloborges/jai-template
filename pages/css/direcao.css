@@ -2688,10 +2688,10 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
+		-moz-flex-direction: inline;
+		-webkit-flex-direction: inline;
+		-ms-flex-direction: inline;
+		flex-direction: inline;
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
