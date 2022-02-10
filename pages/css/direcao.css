@@ -2704,7 +2704,7 @@ input, select, textarea {
 		text-align: center;
 		top: 0;
 		width: 23em;
-		left: 0;
+		right: 0;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
