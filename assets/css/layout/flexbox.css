@@ -1,0 +1,83 @@
+/* line 1, ../../sass/layout/flexbox.scss */
+header .container {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+/* line 10, ../../sass/layout/flexbox.scss */
+.svg {
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: 30vh;
+  margin: auto;
+  width: 30%;
+}
+
+/* line 19, ../../sass/layout/flexbox.scss */
+.svg-up {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* line 27, ../../sass/layout/flexbox.scss */
+.box-header {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 34, ../../sass/layout/flexbox.scss */
+.nav-principal {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* line 40, ../../sass/layout/flexbox.scss */
+.home {
+  display: flex;
+  margin: 0;
+  padding: 10% 15% 9% 8%;
+}
+
+/* line 46, ../../sass/layout/flexbox.scss */
+.home-box {
+  width: 50%;
+}
+
+/* line 50, ../../sass/layout/flexbox.scss */
+.divs {
+  margin: 0 10%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+  align-content: center;
+}
+
+/* line 56, ../../sass/layout/flexbox.scss */
+.gallery-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 10%;
+}
+
+/* line 63, ../../sass/layout/flexbox.scss */
+.gallery-img {
+  width: 80%;
+}
+
+/* line 67, ../../sass/layout/flexbox.scss */
+footer {
+  display: flex;
+  margin: 0;
+  padding: 0 15%;
+  height: 30vh;
+}
