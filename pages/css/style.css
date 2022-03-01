@@ -1,15 +1,10 @@
-/* line 1, ../../sass/layout/style.scss */
 body {
-  background: #F4F6FC;
-  font-family: 'Prompt', sans-serif;
-}
+  background: #ffff;
+  font-family: 'Prompt', sans-serif; }
 
-/* line 6, ../../sass/layout/style.scss */
 p {
-  padding: 0.5em;
-}
+  padding: 0.5em; }
 
-/* line 11, ../../sass/layout/style.scss */
 .nav-item {
   padding: 10px;
   color: #050A30;
@@ -19,36 +14,26 @@ p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
-/* line 23, ../../sass/layout/style.scss */
 .img-logo {
   align-self: center;
   width: 15%;
-  padding: 5%;
-}
+  padding: 5%; }
 
-/* line 29, ../../sass/layout/style.scss */
 .img-home {
   width: 90%;
-  padding-left: 25%;
-}
+  padding-left: 25%; }
 
-/* line 34, ../../sass/layout/style.scss */
 .center {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 
-/* line 40, ../../sass/layout/style.scss */
 .footer-img {
   width: 15vh;
-  padding-bottom: 1.5em;
-}
+  padding-bottom: 1.5em; }
 
-/* line 45, ../../sass/layout/style.scss */
 .home-profission {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
@@ -59,10 +44,8 @@ p {
   font-size: 22px;
   line-height: 1em;
   letter-spacing: normal;
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 58, ../../sass/layout/style.scss */
 .home-text {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
@@ -73,10 +56,8 @@ p {
   font-size: 44px;
   line-height: 1em;
   letter-spacing: normal;
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 71, ../../sass/layout/style.scss */
 .home-name {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
@@ -87,43 +68,29 @@ p {
   font-size: 20px;
   line-height: 1em;
   letter-spacing: normal;
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 86, ../../sass/layout/style.scss */
 .social li {
-  float: left;
-}
+  float: left; }
 
-/* line 90, ../../sass/layout/style.scss */
 .social li a {
   display: block;
   width: 25px;
   height: 25px;
-  margin: 1em;
-}
+  margin: 1em; }
 
-/* line 97, ../../sass/layout/style.scss */
 .social a {
-  background-size: 25px 25px;
-}
+  background-size: 25px 25px; }
 
-/* line 102, ../../sass/layout/style.scss */
 .social a[href*="facebook"] {
-  background-image: url(../img/icon-facebook.svg);
-}
+  background-image: url(/images/icon-facebook.svg); }
 
-/* line 107, ../../sass/layout/style.scss */
 .social a[href*="twitter"] {
-  background-image: url(../img/icon-whatsapp.svg);
-}
+  background-image: url(/images/icon-whatsapp.svg); }
 
-/* line 111, ../../sass/layout/style.scss */
 .social a[href*="instagram"] {
-  background-image: url(../img/icon-instagram.svg);
-}
+  background-image: url(/images/icon-instagram.svg); }
 
-/* line 117, ../../sass/layout/style.scss */
 .line {
   position: absolute;
   z-index: 0;
@@ -133,16 +100,14 @@ p {
   stroke-width: 1px;
   stroke-linecap: round;
   animation: line 5.5s linear infinite;
-  background: none;
-}
+  background: none; }
 
 @keyframes line {
   from {
     stroke-dasharray: 50 660;
-    stroke-dashoffset: 780;
-  }
+    stroke-dashoffset: 780; }
   to {
     stroke-dasharray: 50 660;
-    stroke-dashoffset: 70;
-  }
-}
+    stroke-dashoffset: 70; } }
+
+/*# sourceMappingURL=style.css.map */
