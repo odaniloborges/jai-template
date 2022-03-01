@@ -9,10 +9,9 @@ header .container {
 .svg {
   z-index: 0;
   position: absolute;
-  left: 0;
-  top: 30vh;
-  margin: auto;
-  width: 30%; }
+  right: 0;
+  top: 0;
+  width: 100vw; }
 
 .svg-up {
   z-index: 0;
@@ -34,22 +33,27 @@ header .container {
 
 .home {
   display: flex;
-  margin: 0;
-  padding: 10% 15% 9% 8%; }
+  margin: 9% 10% 0 8%;
+}
 
 .home-box {
-  width: 50%; }
+  position: relative;
+  z-index: 1;
+  width: 48%; 
+}
 
-.divs {
-  margin: 0 10%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.377);
-  align-content: center; }
+.context {
+  position: relative;
+  z-index: 1;
+  background-color: #6C080D;
+}
+
 
 .gallery-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 10%; }
+  padding: 0 10% 60px 10%; }
 
 .gallery-img {
   width: 80%; }
